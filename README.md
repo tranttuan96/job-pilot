@@ -14,9 +14,10 @@ Software Engineers spend too much time tracking application statuses, missing fo
 
 ## Architecture & Tech Stack
 
-- **Monorepo:** TypeScript (npm workspaces)
+- **Monorepo:** TypeScript (pnpm workspaces + Turborepo)
 - **Backend:** NestJS + BullMQ (for Queues/Cronjobs)
 - **Frontend:** React (Vite) + TanStack Query
+- **Shared Contracts:** `packages/shared-types` — zod-first domain models & API DTOs (types inferred), the single source of truth shared by backend and frontend. See `docs/architecture/data-model.md` and `ADR-002`.
 - **Databases:** PostgreSQL (pgvector) as the Source of Truth, MongoDB for unstructured JD data, Redis for Caching/BullMQ.
 
 ## Getting Started
