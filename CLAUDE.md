@@ -10,6 +10,14 @@ JobPilot is a monolithic TypeScript project (NPM Workspaces) utilizing:
 - React + Vite (Frontend SPA)
 - PostgreSQL + MongoDB + Redis (Polyglot Persistence)
 
+## Learning Context (IMPORTANT)
+
+JobPilot is the **capstone** for a Middle → Senior Engineer learning roadmap.
+Before planning work, read `docs/learning-roadmap.md` to know which roadmap
+module the task belongs to, what skill it builds, and which feature it delivers.
+Teach to the "Senior Bar" (trade-offs, the _why_, measure-don't-guess), not just
+"make it work". Notion is the source of truth for module status.
+
 ## Claude's Directives
 
 1. **Be Concise:** Provide direct, technical answers. Avoid unnecessary pleasantries.
